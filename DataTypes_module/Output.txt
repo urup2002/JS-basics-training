@@ -1,0 +1,7 @@
+let name = "Ilya"; //присвоение переменной name значения Ilya
+
+alert( `hello ${1}` ); //Вывод на экран "hello 1"
+
+alert( `hello ${"name"}` ); //Вывод на экран "hello name"
+
+alert( `hello ${name}` ); //Вывод на экран "hello Ilya"

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script charset="utf-8">
+//Что выведет код ниже?
+alert( null || 2 || undefined ); //2
+alert( alert(1) || 2 || alert(3) );//сначала alert(1), потом 2. До alert(3) не дойдет
+alert( 1 && null && 2 );//null
+alert( alert(1) && alert(2) );//1 и undefined
+alert( null || 2 && 3 || 4 );//3, т.к приоритет И выше
+</script>
+</body>
+</html>
